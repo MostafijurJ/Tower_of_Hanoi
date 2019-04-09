@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="421dp"
+        android:layout_height="188dp"
+        android:layout_x="61dp"
+        android:layout_y="3dp"
+        android:src="@drawable/hanoi_background" />
+
+    <View
+        android:id="@+id/dArea"
+        class="com.as.drawing.DrawShape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_x="0dp"
+        android:layout_y="23dp" />
+
+</RelativeLayout>
